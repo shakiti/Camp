@@ -2,10 +2,20 @@ html, body {
 	width: 100%;
 	height: 100%;
 }
-.conteiner1{
+.container1{
 	background: #272727;
 	position: relative;
-	height: 65vh;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.container2{
+	background: #DCDCDC;
+	position: relative;
+	height: 40vh;
+	display: flex;
+    justify-content: space-around;
 }
 .logo img{
 	width:150px;
@@ -20,7 +30,7 @@ a{
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: middle;
-	font-size:20px;
+	font-size:17px;
 	color: #ffff;
 }
 .header{
@@ -41,6 +51,9 @@ a{
 .cercles{
 	position: relative;
 	margin: 70px 0 0 150px;
+}
+img{
+	z-index: 6;
 }
 .cercle{
 	position: absolute;
@@ -63,15 +76,16 @@ a{
 }
 .recltangle{
 	position: absolute;
-    z-index: -1;
+    z-index: 2;
     left: 30px;
 }
-p{
+.cercles p{
  	color: white;
     font-size: 17px;
     position: absolute;
     left: 150px;
     top: 30px;
+    z-index: 6;
 }
 .share{
 	position: absolute;
@@ -89,8 +103,104 @@ p{
 }
 .waves{
 	position: relative;
+   	margin-top: auto;
 }
 .path{
 	position: absolute;
 	bottom: 0;
+	width: 100%;
 }
+.timeline{
+	position: absolute;
+	margin-top: 60px;
+}
+.container2-child{
+	display: flex;
+	justify-content: space-around;
+}
+.container2-child .time p{
+	color: #272727;
+	font-size: 17px;
+	margin: 22px 109px 0 0;
+}
+.time{
+	display: flex;
+    justify-content: space-between;
+    margin-left: 106px;
+}
+.container2-child .time .greenone{
+	color: #4FB6B2;
+}
+.rctngl1{
+	position: absolute;
+    top: 109px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -445px;
+}
+.rctngl1 .musicname{
+	position: absolute;
+    top: 35px;
+    z-index: 7;
+    color: white;
+}
+.rctngl2{
+	position: absolute;
+    top: 109px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -148px;
+}
+.rctngl2 .musicname{
+	position: absolute;
+    top: 35px;
+    z-index: 7;
+    color: white;
+}
+.rctngl3{
+	position: absolute;
+    top: 109px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 149px;
+}
+.rctngl3 .musicname{
+	position: absolute;
+    top: 30px;
+    z-index: 7;
+    color: white;
+    width: 85px;
+}
+.footer{
+	width: 700px;
+	height: 100px;
+	background: #272727;
+	position: absolute;
+	z-index: 6;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.footer-txt{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 30px 10px 30px;
+}
+.footer p{
+	color: white;
+}
+.social{
+	position: relative;
+	display: flex;
+	margin:0 15px 15px 30px;
+}
+.social-icon{
+	margin-right: 15px;
+}
+.apps-icons{
+	margin-left: auto;
+    padding-right: 25px;
+}
+
+
