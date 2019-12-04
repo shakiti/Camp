@@ -193,7 +193,7 @@ img{
 .social{
 	position: relative;
 	display: flex;
-	margin:0 15px 15px 30px;
+	margin:0 15px 7px 30px;
 }
 .social-icon{
 	margin-right: 15px;
