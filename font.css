@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'SquadaOne-Regular';
+  src: url('fonts/SquadaOne-Regular.eot');
+  src: url('fonts/SquadaOne-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/SquadaOne-Regular.svg#SquadaOne-Regular') format('svg'),
+       url('fonts/SquadaOne-Regular.woff') format('woff'),
+       url('fonts/SquadaOne-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RobotoCondensed-Light';
+  src: url('fonts/RobotoCondensed-Light.eot');
+  src: url('fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/RobotoCondensed-Light.svg#RobotoCondensed-Light') format('svg'),
+       url('fonts/RobotoCondensed-Light.woff') format('woff'),
+       url('fonts/RobotoCondensed-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
