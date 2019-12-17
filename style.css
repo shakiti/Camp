@@ -352,7 +352,7 @@ img{
         transform: translateX(-50%) translateZ(0) scaleY(1)
     }
 }
-.waveWrapper {
+.wavewrapper {
     overflow: hidden;
     position: absolute;
     left: 0;
@@ -361,7 +361,7 @@ img{
     top: 0;
     margin: auto;
 }
-.waveWrapperInner {
+.wavewrapperInner {
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -369,13 +369,13 @@ img{
     bottom: -1px;
     background-image: #272727;
 }
-.bgTop {
+.bgtop {
     z-index: 15;
 }
-.bgMiddle {
+.bgmiddle {
     z-index: 10;
 }
-.bgBottom {
+.bgbottom {
     z-index: 12;
 }
 .wave {
@@ -388,7 +388,7 @@ img{
     transform-origin: center bottom;
 }
 
-.waveAnimation .waveTop {
+.waveanimation .wavetop {
   animation: move-wave 3s;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1.5s;
@@ -397,7 +397,7 @@ img{
 
 }
 
-.waveAnimation .waveMiddle {
+.waveanimation .wavemiddle {
     animation: move_wave 7s linear infinite reverse;
     -webkit-animation-delay: 1-webkit-animation-delay: 1.5s;
    animation-delay: 1.5s;
@@ -405,7 +405,7 @@ s;
    animation-delay: 1s;
 
 }
-.waveAnimation .waveBottom {
+.waveanimation .wavebottom {
     animation: move_wave 7s linear infinite;
 }
 .events{
