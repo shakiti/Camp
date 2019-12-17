@@ -86,7 +86,7 @@ img{
 }
 .cercle:nth-child(2){
 	transform: translateY(-15px);
-	animation: move1 1s infinite alternate; 
+	animation: move1 2s infinite alternate; 
 }
 @keyframes move1 {
 	0% {
