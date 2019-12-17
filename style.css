@@ -410,16 +410,37 @@ s;
 }
 .events{
 	height: calc(100vh - 194px);
+	display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
 }
 .event1{
 	background:#333333;
 	display: inline-block;
-	margin-right: 115px;
 	padding: 10px 20px 10px 20px;
+	height: 260px;
+	border: 1px #DCDCDC solid;
+	border-radius: 2px;
+}
+.event1:hover{
+	border: 3px #4FB6B2 solid;
 }
 .events p{
 	font-size: 17px;
 	color: white;
 	padding: 10px 0 10px 0;
+}
+.poster1{
+	width:325px;
+}
+.greybox{
+	background: #333333;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
