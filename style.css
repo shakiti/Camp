@@ -443,4 +443,9 @@ s;
     justify-content: space-around;
     align-items: center;
 }
-
+.arrowleft{
+	opacity: 0.3;
+}
+.arrowright{
+	opacity: 0.3;
+}
