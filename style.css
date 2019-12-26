@@ -68,6 +68,9 @@ a:hover{
 .videos-page{
 	color: #4FB6B2;
 }
+.livestr-page{
+	color: #4FB6B2;
+}
 .cercles{
 	position: relative;
 	margin: 70px 0 0 150px;
@@ -422,12 +425,10 @@ s;
     align-items: center;
 }
 .event1{
-	background:#333333;
+	background:#525151;
 	display: inline-block;
 	padding: 10px 20px 10px 20px;
 	height: 260px;
-	border: 1px #DCDCDC solid;
-	border-radius: 2px;
 }
 .event1:hover{
 	background: #396866;
@@ -498,4 +499,29 @@ s;
 	margin-right: 10px;
 	margin-bottom: 15px;
 
+}
+.livestreaming{
+	height: calc(100vh - 170px);
+	display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+.videoo{
+	width: 800px;
+}
+.ply{
+	position: absolute;
+	z-index: 10;
+    left: 369px;
+    top:225px;
+}
+.ply-video{
+	display: flex;
+	position: absolute;
+}
+.player{
+	position: absolute;
+    bottom: 0;
+    width: 800px;
 }

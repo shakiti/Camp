@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60">
+  <g id="Group_21" data-name="Group 21" transform="translate(-233 -577)">
+    <rect id="Rectangle_82" data-name="Rectangle 82" width="900" height="60" transform="translate(233 577)" fill="#dcdcdc"/>
+    <rect id="Rectangle_84" data-name="Rectangle 84" width="65" height="60" transform="translate(233 577)" fill="#b4b2b2"/>
+    <rect id="Rectangle_83" data-name="Rectangle 83" width="65" height="60" transform="translate(1068 577)" fill="#b4b2b2"/>
+    <line id="Line_10" data-name="Line 10" x2="431" transform="translate(445.5 607.5)" fill="none" stroke="#747373" stroke-linecap="round" stroke-width="6"/>
+    <path id="Polygon_14" data-name="Polygon 14" d="M10.3,0,20.6,18.353H0Z" transform="translate(248.714 602.142) rotate(-30)" fill="#747373"/>
+    <text id="_00_:_00" data-name="00 : 00" transform="translate(326 600)" fill="#747373" font-size="15" font-family="ProximaNova-Bold, Proxima Nova" font-weight="700"><tspan x="0" y="12">00 : 00</tspan></text>
+    <path id="Path_51" data-name="Path 51" d="M16.909,3.013a1.922,1.922,0,0,0-.993.279.584.584,0,0,0-.082.058l-8.52,7.207H.629A.628.628,0,0,0,0,11.186V23.132a.628.628,0,0,0,.629.629H7.3l8.515,7.819a.614.614,0,0,0,.1.075,1.922,1.922,0,0,0,.993.279,1.971,1.971,0,0,0,1.953-1.984V5A1.97,1.97,0,0,0,16.909,3.013ZM8.173,22.5a.629.629,0,0,1-1.257,0V19.989a.629.629,0,1,1,1.257,0Zm0-8.173a.629.629,0,1,1-1.257,0V11.815a.629.629,0,0,1,1.257,0Z" transform="translate(946.658 589.526)" fill="#747373"/>
+    <line id="Line_8" data-name="Line 8" x2="62" transform="translate(976.5 607.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_9" data-name="Line 9" x2="25" transform="translate(976.5 607.5)" fill="none" stroke="#4fb6b2" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_11" data-name="Line 11" x2="132" transform="translate(443.5 607.5)" fill="none" stroke="#4fb6b2" stroke-linecap="round" stroke-width="6"/>
+    <g id="full-screen-exit" transform="translate(1086.539 593.539)">
+      <g id="fullscreen-exit">
+        <path id="Path_47" data-name="Path 47" d="M0,21.938H5.983v5.983H9.972V17.95H0ZM5.983,5.983H0V9.972H9.972V0H5.983ZM17.95,27.922h3.989V21.938h5.983V17.95H17.95ZM21.938,5.983V0H17.95V9.972h9.972V5.983Z" fill="#747373"/>
+      </g>
+    </g>
+  </g>
+</svg>
